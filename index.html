@@ -33,7 +33,7 @@
           <img src="img/logo.jpeg" width="85" height="40" class="d-inline-block align-top" alt="">
         Business Intelligence Code
       </a>
-      <!--a class="btn btn-primary" href="#">Sign In</a-->
+      
     </div>
   </nav>
 
@@ -46,16 +46,7 @@
           <h1 class="mb-5">Desarrolla tu idea para transformarla en realidad.</h1>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="aqui el email de nuestro gato...">
-              </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-              </div>
-            </div>
-          </form>
+          
         </div>
       </div>
     </div>
@@ -157,19 +148,30 @@
   <!-- Call to Action -->
   <section class="call-to-action text-white text-center">
     <div class="overlay"></div>
-    <div class="container">
+    <div class="container" id="form-contact">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+          <h2 class="mb-4">Contactanos!</h2>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
           <form>
             <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+              <div class="col-12 col-md-6 mb-2 mb-md-2">
+                <input type="text" name="name" class="form-control form-control-lg" placeholder="Nombre completo">
               </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+              <div class="col-12 col-md-6 mb-2 mb-md-2">
+                <input type="email" name="email" class="form-control form-control-lg" placeholder="Email">
+              </div>
+              <div class="col-12 col-md-12 mb-2 mb-md-2">
+                <input type="text" name="subject" class="form-control form-control-lg" placeholder="Asunto">
+              </div>
+              <div class="col-12 col-md-12 mb-2 mb-md-2">
+                <textarea class="form-control form-control-lg" placeholder="Escribe tu mensaje..."></textarea>
+
+              </div>
+              <br>
+              <div class="col-12">
+                <button type="submit" class="btn btn-block btn-lg btn-success">Enviar!</button>
               </div>
             </div>
           </form>
@@ -189,7 +191,7 @@
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
-              <a href="#">Contact</a>
+              <a href="#form-contact">Contact</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
